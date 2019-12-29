@@ -1,0 +1,3 @@
+data modify entity 10a-b0e5-5be3-0-1 Pos set from entity @s Motion
+execute as 10a-b0e5-5be3-0-1 positioned 0.0 0.0 0.0 store success score $isFar hfk.cars.temp unless entity @s[distance=..0.0796875]
+execute if score $isFar hfk.cars.temp matches 1 positioned 0.0 0.0 0.0 facing entity 10a-b0e5-5be3-0-1 feet rotated ~ 0 positioned as @s as @e[type=item,tag=hfk.car.root,distance=..0.2,limit=1,sort=nearest] run function hfk_cars:internal/as_item

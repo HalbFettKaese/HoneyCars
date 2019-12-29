@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#hfk_cars:aestd/beds",
+        "#hfk_cars:aestd/cubic",
+        "#hfk_cars:aestd/glass_panes",
+        "#hfk_cars:aestd/heads",
+        "#minecraft:slabs",
+        "minecraft:daylight_detector"
+    ]
+}

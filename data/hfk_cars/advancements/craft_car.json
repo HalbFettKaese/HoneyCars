@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "hfk_cars:car"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hfk_cars:internal/on_recipe"
+    }
+}

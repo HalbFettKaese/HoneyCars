@@ -1,0 +1,1 @@
+scoreboard objectives add hfk.cars.temp dummy

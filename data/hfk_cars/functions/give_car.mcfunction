@@ -1,0 +1,1 @@
+give @s minecraft:ghast_spawn_egg{CustomModelData:1,EntityTag:{id:"item",Item:{id:"powered_rail",Count:1b,tag:{CustomModelData:1}},Tags:["hfk.car_spawner"]},display:{Name:'{"text":"Car", "italic": false}'}}
