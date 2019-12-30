@@ -1,0 +1,3 @@
+kill @s
+execute at @s run kill @e[type=armor_stand,limit=1,sort=nearest,distance=..1,tag=hfk.car.skin]
+data merge entity @e[type=item,limit=1,sort=nearest,distance=..1,nbt={Item:{id:"minecraft:minecart",Count:1b}},nbt=!{Item:{tag:{}}}] {Item:{id:"ghast_spawn_egg",tag:{CustomModelData:1,EntityTag:{id:"item",Item:{id:"stone_button",Count:1b,tag:{CustomModelData:2}},Tags:["hfk.car_spawner"]},display:{Name:'{"text":"Car", "italic": false}'}}}}
